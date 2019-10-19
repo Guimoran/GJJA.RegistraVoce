@@ -5065,11 +5065,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/season/Documentos/projects/didactic-broccoli/3.Repository/GJJA.RegistraVoce.Repository.Entity/GJJA.RegistraVoce.Repository.Entity.csproj",
+      "projectUniqueName": "/home/season/Documentos/projects/season-dotnetcore/3.Repository/GJJA.RegistraVoce.Repository.Entity/GJJA.RegistraVoce.Repository.Entity.csproj",
       "projectName": "GJJA.RegistraVoce.Repository.Entity",
-      "projectPath": "/home/season/Documentos/projects/didactic-broccoli/3.Repository/GJJA.RegistraVoce.Repository.Entity/GJJA.RegistraVoce.Repository.Entity.csproj",
+      "projectPath": "/home/season/Documentos/projects/season-dotnetcore/3.Repository/GJJA.RegistraVoce.Repository.Entity/GJJA.RegistraVoce.Repository.Entity.csproj",
       "packagesPath": "/home/season/.nuget/packages/",
-      "outputPath": "/home/season/Documentos/projects/didactic-broccoli/3.Repository/GJJA.RegistraVoce.Repository.Entity/obj/",
+      "outputPath": "/home/season/Documentos/projects/season-dotnetcore/3.Repository/GJJA.RegistraVoce.Repository.Entity/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -5086,14 +5086,14 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/home/season/Documentos/projects/didactic-broccoli/1.Domain/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj": {
-              "projectPath": "/home/season/Documentos/projects/didactic-broccoli/1.Domain/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj"
+            "/home/season/Documentos/projects/season-dotnetcore/1.Domain/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj": {
+              "projectPath": "/home/season/Documentos/projects/season-dotnetcore/1.Domain/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj"
             },
-            "/home/season/Documentos/projects/didactic-broccoli/2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/GJJA.RegistraVoce.DataAccess.Entity.csproj": {
-              "projectPath": "/home/season/Documentos/projects/didactic-broccoli/2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/GJJA.RegistraVoce.DataAccess.Entity.csproj"
+            "/home/season/Documentos/projects/season-dotnetcore/2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/GJJA.RegistraVoce.DataAccess.Entity.csproj": {
+              "projectPath": "/home/season/Documentos/projects/season-dotnetcore/2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/GJJA.RegistraVoce.DataAccess.Entity.csproj"
             },
-            "/home/season/Documentos/projects/didactic-broccoli/3.Repository/GJJA.Repository.Common.Entity/GJJA.Repository.Common.Entity.csproj": {
-              "projectPath": "/home/season/Documentos/projects/didactic-broccoli/3.Repository/GJJA.Repository.Common.Entity/GJJA.Repository.Common.Entity.csproj"
+            "/home/season/Documentos/projects/season-dotnetcore/3.Repository/GJJA.Repository.Common.Entity/GJJA.Repository.Common.Entity.csproj": {
+              "projectPath": "/home/season/Documentos/projects/season-dotnetcore/3.Repository/GJJA.Repository.Common.Entity/GJJA.Repository.Common.Entity.csproj"
             }
           }
         }

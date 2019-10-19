@@ -30,7 +30,12 @@ namespace WebMVC.Controllers
 
             return View(model);
 
-            return View(model);
+            
+        }
+
+        public IActionResult DeletePerson(Int32 Id)
+        {
+            return View();
         }
 
 

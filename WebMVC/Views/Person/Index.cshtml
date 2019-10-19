@@ -43,7 +43,11 @@
         <td>@person.MaritalStatus</td>
         <td>@person.Address</td>
         <td>@person.Phone</td>
-        <td style="text-align: center; color: red"><strong>X</strong></td>
+        <td style="text-align: center; color: red">
+            <strong>
+                    @Html.ActionLink("X", "DeletePerson", "Person", person.Id)
+            </strong>    
+            </td>    
         </tr>
     } 
 

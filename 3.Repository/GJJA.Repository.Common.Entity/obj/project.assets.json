@@ -2594,11 +2594,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/season/Documentos/projects/didactic-broccoli/3.Repository/GJJA.Repository.Common.Entity/GJJA.Repository.Common.Entity.csproj",
+      "projectUniqueName": "/home/season/Documentos/projects/season-dotnetcore/3.Repository/GJJA.Repository.Common.Entity/GJJA.Repository.Common.Entity.csproj",
       "projectName": "GJJA.Repository.Common.Entity",
-      "projectPath": "/home/season/Documentos/projects/didactic-broccoli/3.Repository/GJJA.Repository.Common.Entity/GJJA.Repository.Common.Entity.csproj",
+      "projectPath": "/home/season/Documentos/projects/season-dotnetcore/3.Repository/GJJA.Repository.Common.Entity/GJJA.Repository.Common.Entity.csproj",
       "packagesPath": "/home/season/.nuget/packages/",
-      "outputPath": "/home/season/Documentos/projects/didactic-broccoli/3.Repository/GJJA.Repository.Common.Entity/obj/",
+      "outputPath": "/home/season/Documentos/projects/season-dotnetcore/3.Repository/GJJA.Repository.Common.Entity/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -2615,8 +2615,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/home/season/Documentos/projects/didactic-broccoli/3.Repository/GJJA.Repository.Common/GJJA.Repository.Common.csproj": {
-              "projectPath": "/home/season/Documentos/projects/didactic-broccoli/3.Repository/GJJA.Repository.Common/GJJA.Repository.Common.csproj"
+            "/home/season/Documentos/projects/season-dotnetcore/3.Repository/GJJA.Repository.Common/GJJA.Repository.Common.csproj": {
+              "projectPath": "/home/season/Documentos/projects/season-dotnetcore/3.Repository/GJJA.Repository.Common/GJJA.Repository.Common.csproj"
             }
           }
         }
