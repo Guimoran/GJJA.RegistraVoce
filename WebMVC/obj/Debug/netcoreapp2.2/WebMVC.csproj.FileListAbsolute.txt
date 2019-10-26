@@ -84,3 +84,4 @@
 /home/season/Documentos/projects/season-dotnetcore/WebMVC/obj/Debug/netcoreapp2.2/WebMVC.csproj.CopyComplete
 /home/season/Documentos/projects/season-dotnetcore/WebMVC/obj/Debug/netcoreapp2.2/WebMVC.dll
 /home/season/Documentos/projects/season-dotnetcore/WebMVC/obj/Debug/netcoreapp2.2/WebMVC.pdb
+/home/season/Documentos/projects/season-dotnetcore/WebMVC/obj/Debug/netcoreapp2.2/Razor/Views/Person/Create.g.cshtml.cs

@@ -1,20 +1,16 @@
 @model ListPersonModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Person";
 }
 
-<h2>*** Bem-Vindo! ***</h2>
+<h2>*** Person Page ***</h2>
 
-<p>O que você deseja fazer?</p>
+<strong>
+    @Html.ActionLink("Create Person", "Create", "Person")
+    </strong>
 
-<p>Listar pessoas</p>
 
-<p>Inserir pessoas</p>
-
-<p>Atualizar pessoas</p>
-
-<p>Deletar pessoas</p>
 
 
 

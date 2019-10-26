@@ -18,23 +18,38 @@ namespace WebMVC.Controllers
 
         public PersonController()
         {
+            model = new ListPersonModel();
             SetUp();
         }
+
+        public ListPersonModel model;
+
 
      private static ServiceProvider _serviceProvider;
         public IActionResult Index()
         {
-             ICrudRepository<Person, int> personRepository = _serviceProvider.GetService<ICrudRepository<Person, int>>();
-            List<Person> people = personRepository.Select();
-            ListPersonModel model = new ListPersonModel(people);
+             LoadPeople();
 
             return View(model);
 
             
         }
 
+        private void LoadPeople()
+        {
+             ICrudRepository<Person, int> personRepository = _serviceProvider.GetService<ICrudRepository<Person, int>>();
+            List<Person> people = personRepository.Select();
+            model = new ListPersonModel(people);
+        }
+
         public IActionResult DeletePerson(Int32 Id)
         {
+            return View();
+        }
+
+        public IActionResult Create()
+        {
+            var model = new PersonModel();
             return View();
         }
 
@@ -54,7 +69,17 @@ namespace WebMVC.Controllers
             model.MaritalStatus = MaritalStatus.Single;
             return View(model);
 
+           
+
         }
+
+         public IActionResult Insert(Person person)
+            {
+                ICrudRepository<Person, int> personRepository = _serviceProvider.GetService<ICrudRepository<Person, int>>();
+                personRepository.Insert(person);
+                LoadPeople();
+                return View("Index", model);
+            }
 
          private static void SetUp()
         {

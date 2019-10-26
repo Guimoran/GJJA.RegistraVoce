@@ -1,0 +1,64 @@
+@model PersonModel
+
+@{
+    ViewData["Title"] = "Create Page";
+}
+
+<h2>*** Create Person Page ***</h2>
+
+<strong>
+    @Html.ActionLink("List all", "Index", "Person")
+    </strong>
+
+@using (Html.BeginForm("insert", "Person", FormMethod.Post))
+{
+    <table>
+    <tr>
+        <th>Parameter</th>
+        <th>Value</th> 
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>@Html.EditorFor(m => m.Name)</td>  
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td>@Html.DropDownListFor(m => m.Gender, new List<SelectListItem> {
+            new SelectListItem {Text = "Male", Value = "0"},
+            new SelectListItem {Text = "Female", Value = "1"},
+            new SelectListItem {Text = "No Info", Value = "2"}
+        })
+            </td>  
+    </tr>
+    <tr>
+        <td>Document Number</td>
+        <td>@Html.EditorFor(m => m.DocumentNumber)</td>  
+    </tr>
+    <tr>
+        <td>Identification</td>
+        <td>@Html.EditorFor(m => m.Identification)</td>  
+    </tr>
+    <tr>
+        <td>Birth Date</td>
+        <td>@Html.EditorFor(m => m.BirthDate)</td>  
+    </tr>
+    <tr>
+        <td>Marital Status</td>
+        <td>@Html.DropDownListFor(m => m.MaritalStatus, new List<SelectListItem> {
+            new SelectListItem {Text = "Single", Value = "0"},
+            new SelectListItem {Text = "Married", Value = "1"},
+            new SelectListItem {Text = "Divorced", Value = "2"},
+            new SelectListItem {Text = "Widowed", Value = "3"}
+        })</td>  
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td>@Html.EditorFor(m => m.Address)</td>  
+    </tr>
+    <tr>
+        <td>Phone</td>
+        <td>@Html.EditorFor(m => m.Phone)</td>  
+    </tr>
+    </table>
+    <input type = "submit" value = "Save Person"/>
+}
